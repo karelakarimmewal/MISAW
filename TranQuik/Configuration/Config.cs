@@ -27,6 +27,7 @@ namespace TranQuik.Configuration
                 UpdateDatabaseSettings(appSettings);
 
                 // Save the loaded settings back to file to ensure consistency
+                SavedSettings.SaveAppSettings();
                 SaveAppSettings();
             }
             catch (Exception ex)
@@ -59,13 +60,13 @@ namespace TranQuik.Configuration
                 { "_AppSaleMode", "3" },
                 { "_AppID", "Development" },
                 { "_AppSecMonitor", "False" },
-                { "_AppAllowImage", "False" },
+                { "_AppAllowImage", "True" },
                 { "_AppStatus", "False" },
-                { "_LocalDbServer", "" },
-                { "_LocalDbPort", "0" },
-                { "_LocalDbUser", "" },
-                { "_LocalDbPassword", "" },
-                { "_LocalDbName", "" },
+                { "_LocalDbServer", "localhost" },
+                { "_LocalDbPort", "3308" },
+                { "_LocalDbUser", "vtecPOS" },
+                { "_LocalDbPassword", "vtecpwnet" },
+                { "_LocalDbName", "vtectestaw" },
                 { "_CloudDbServer", "" },
                 { "_CloudDbPort", "0" },
                 { "_CloudDbUser", "" },

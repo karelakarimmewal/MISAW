@@ -13,5 +13,7 @@ namespace TranQuik
     /// </summary>
     public partial class App : Application
     {
+
+
     }
 }

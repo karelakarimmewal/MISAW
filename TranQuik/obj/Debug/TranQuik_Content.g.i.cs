@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("tranquik%20(1).ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/tranquik.png")]
 
 
