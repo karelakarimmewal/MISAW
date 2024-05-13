@@ -1,0 +1,33 @@
+﻿<Application x:Class="TranQuik.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TranQuik"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <!-- Background Colors -->
+            <!-- Primary Background Color -->
+            <SolidColorBrush x:Key="PrimaryBackgroundColor" Color="#F5F5F5" />
+            <!-- Secondary Background Color -->
+            <SolidColorBrush x:Key="SecondaryBackgroundColor" Color="#FFFFFF" />
+            <!-- Tertiary Background Color -->
+            <SolidColorBrush x:Key="TertiaryBackgroundColor" Color="#ECEFF1" />
+            <!--Font Color-->
+            <SolidColorBrush x:Key="FontColor" Color="#333333" />
+            <!--Accent Color-->
+            <SolidColorBrush x:Key="AccentColor" Color="#0D47A1" />
+
+            <!-- Button Colors -->
+            <SolidColorBrush x:Key="PrimaryButtonColor" Color="#2196F3" />
+            <SolidColorBrush x:Key="SecondaryButtonColor" Color="#FFCCBC" />
+            <SolidColorBrush x:Key="DisabledButtonColor" Color="#E0E0E0" />
+
+            <!-- Additional Colors (if needed) -->
+            <SolidColorBrush x:Key="SuccessColor" Color="#4CAF50" />
+            <SolidColorBrush x:Key="ErrorColor" Color="#F44336" />
+            <SolidColorBrush x:Key="WarningColor" Color="#FFEB3B" />
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
